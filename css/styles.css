@@ -257,8 +257,15 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 800; letter-spacing:
 .svc-card:hover .svc-card__title { color: var(--accent); }
 
 /* ---------- Goal (quote band) ---------- */
-.goal { background: var(--bg-1); border-block: 1px solid var(--line); }
-.goal__quote { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 4.4vw, 64px); line-height: 1.08; letter-spacing: -0.025em; max-width: 18ch; margin: 0 0 36px; }
+.goal { position: relative; overflow: hidden; border-block: 1px solid var(--line); }
+.goal__bg { position: absolute; inset: 0; z-index: 0; }
+.goal__video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.goal__overlay {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to bottom, rgba(10,11,13,0.62) 0%, rgba(10,11,13,0.78) 100%);
+}
+.goal__wrap { position: relative; z-index: 2; }
+.goal__quote { font-family: var(--font-display); font-weight: 700; font-size: clamp(30px, 4.4vw, 64px); line-height: 1.08; letter-spacing: -0.025em; max-width: 18ch; margin: 0 0 36px; text-shadow: 0 2px 24px rgba(0,0,0,0.7); }
 .goal__quote .green { color: var(--accent); }
 .goal__author { font-family: var(--font-mono); font-size: 15px; letter-spacing: 0.06em; color: var(--fg-dim); }
 
