@@ -18,7 +18,7 @@ const I18N = {
     cta_services: "Meie teenused",
     hero_body: "Pakume oma klientidele laia valikut kaubaveo- ja logistikateenuseid. Valides meie meeskonna, valite turvalise ja tõhusa kaubaveo üle kogu maailma. Meile usaldatakse kõige väärtuslikum kaup.",
     stat_years_label: "aastat turul",
-    stat_offices_label: "kontorit Euroopas",
+    stat_offices_label: "klienti",
     stat_reach_value: "Globaalne",
     stat_reach_label: "kohaletoimetamise ulatus",
 
@@ -110,7 +110,7 @@ const I18N = {
     cta_services: "Наши услуги",
     hero_body: "Мы предлагаем нашим клиентам широкий спектр услуг в сфере грузоперевозок и логистики. Выбирая нашу команду, вы выбираете безопасную и эффективную доставку грузов по всему миру. Нам доверяют самые ценные грузы.",
     stat_years_label: "лет на рынке",
-    stat_offices_label: "офисов в Европе",
+    stat_offices_label: "клиентов",
     stat_reach_value: "Весь мир",
     stat_reach_label: "география доставки",
 
