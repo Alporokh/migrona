@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="css/styles.css">
 <template id="__bundler_thumbnail" data-bg-color="#0a0b0d">
   <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
@@ -101,7 +102,7 @@
 <section class="section" id="about">
   <div class="wrap about__grid">
     <div class="about__text reveal">
-      <p class="kicker" data-i18n="about_kicker">01 — About</p>
+      <p class="kicker" data-i18n="about_kicker">About</p>
       <h2 class="h2 about__title-h" data-i18n="about_title">Two decades of reliable freight</h2>
       <p class="about__lead" data-i18n="about_lead">Our team has established itself as a reliable partner in freight transport, transport and forwarding services.</p>
       <p class="body-lg" data-i18n="about_body">The Migrona team consists of professionals with extensive experience in freight transport. Our logistics experts, drivers and dispatchers work with both regular and new clients, ensuring quality service. We value every client and offer an individual approach to every task.</p>
@@ -118,9 +119,13 @@
 <!-- ===================== SERVICES ===================== -->
 <section class="section section--line" id="services">
   <div class="wrap">
-    <p class="kicker" data-i18n="services_kicker">02 — Services</p>
+    <p class="kicker" data-i18n="services_kicker">Services</p>
     <h2 class="h2 head-tight" data-i18n="services_title">Our services</h2>
     <p class="svc-intro body-lg" data-i18n="services_intro">We provide a full range of freight forwarding services for cargo delivery by road, and arrange transport of complete, groupage, oversized, dangerous, general, small, chemical, fragile, valuable and long cargo.</p>
+
+    <div class="reveal" style="margin:2.5rem 0">
+      <image-slot id="services-img" shape="rounded" radius="6" placeholder="Drop a warehouse photo"></image-slot>
+    </div>
 
     <div class="svc-grid">
       <article class="svc-card reveal">
@@ -160,7 +165,7 @@
 <!-- ===================== GOAL ===================== -->
 <section class="section goal">
   <div class="wrap">
-    <p class="kicker" data-i18n="goal_kicker">03 — Our goal</p>
+    <p class="kicker" data-i18n="goal_kicker">Our goal</p>
     <blockquote class="goal__quote" data-i18n="goal_quote">We work to help you optimize the costs of delivering and handling your cargo</blockquote>
     <p class="goal__author" data-i18n="goal_author">— Migrona Team</p>
   </div>
@@ -169,7 +174,7 @@
 <!-- ===================== WHY US ===================== -->
 <section class="section" id="why">
   <div class="wrap">
-    <p class="kicker" data-i18n="why_kicker">04 — Why us</p>
+    <p class="kicker" data-i18n="why_kicker">Why us</p>
     <h2 class="h2 head-wide" data-i18n="why_title">Why you choose us</h2>
     <div class="why-grid">
       <article class="why-card reveal">
@@ -194,7 +199,7 @@
 <!-- ===================== TESTIMONIALS ===================== -->
 <section class="section section--line" id="clients">
   <div class="wrap">
-    <p class="kicker" data-i18n="clients_kicker">05 — Clients</p>
+    <p class="kicker" data-i18n="clients_kicker">Clients</p>
     <h2 class="h2 head-wide" data-i18n="clients_title">What clients say</h2>
     <div class="t-grid">
       <article class="t-card reveal">

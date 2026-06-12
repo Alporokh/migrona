@@ -22,13 +22,13 @@ const I18N = {
     stat_reach_value: "Globaalne",
     stat_reach_label: "kohaletoimetamise ulatus",
 
-    about_kicker: "01 — Meist",
+    about_kicker: "Meist",
     about_title: "Kaks aastakümmet usaldusväärset kaubavedu",
     about_lead: "Meie meeskond on tõestanud end usaldusväärse partnerina kaubaveo-, transpordi- ja ekspedeerimisteenuste valdkonnas.",
     about_body: "Migrona meeskond koosneb professionaalidest, kellel on pikaajaline kogemus kaubaveo valdkonnas. Meie logistikaeksperdid, autojuhid ja dispetšerid töötavad nii püsi- kui ka uute klientidega, tagades kvaliteetse teeninduse. Hindame iga klienti ja pakume individuaalset lähenemist igale ülesandele.",
     about_img_ph: "Lohista siia meeskonna- või veokifoto",
 
-    services_kicker: "02 — Teenused",
+    services_kicker: "Teenused",
     services_title: "Meie teenused",
     services_intro: "Pakume täielikku ekspedeerimisteenuste valikut kaupade maanteeveoks ning korraldame komplektsete, koondatud, ülegabariidiliste, ohtlike, üld-, väikegabariidiliste, keemiliste, õrnade, väärtuslike ja pikkade kaupade vedu.",
     svc1_title: "Rahvusvaheline vedu",
@@ -44,11 +44,11 @@ const I18N = {
     svc6_title: "Konsultatsioon",
     svc6_body: "Nõustamine rahvusvahelise kaubaveo küsimustes.",
 
-    goal_kicker: "03 — Meie eesmärk",
+    goal_kicker: "Meie eesmärk",
     goal_quote: "Töötame selle nimel, et aidata teil optimeerida kauba kohaletoimetamise ja käitlemise kulusid",
     goal_author: "— Migrona meeskond",
 
-    why_kicker: "04 — Miks meie",
+    why_kicker: "Miks meie",
     why_title: "Miks valite meid",
     why1_title: "20 aastat turul",
     why1_body: "Oma eduga turul võlgneme tänu omaenda autopargile, professionaalsele juhtide meeskonnale ja distsiplineeritud autojuhtidele.",
@@ -57,7 +57,7 @@ const I18N = {
     why3_title: "Me garanteerime",
     why3_body: "Individuaalse lähenemise klientidele, tellimuste kiire töötlemise, mõistlikud hinnad, usaldusväärsuse ja lühikesed tarneajad.",
 
-    clients_kicker: "05 — Kliendid",
+    clients_kicker: "Kliendid",
     clients_title: "Mida kliendid ütlevad",
     t1_quote: "Oleme Migrona meeskonnaga koostööd teinud üle 10 aasta. Teame kindlalt, et meie kaup on usaldusväärsetes kätes turu parima hinnaga. Olen kindel, et koostöö jätkub.",
     t1_name: "Aleksander",
@@ -114,13 +114,13 @@ const I18N = {
     stat_reach_value: "Весь мир",
     stat_reach_label: "география доставки",
 
-    about_kicker: "01 — О нас",
+    about_kicker: "О нас",
     about_title: "Два десятилетия надёжных перевозок",
     about_lead: "Наша команда зарекомендовала себя надёжным партнёром в области грузоперевозок, транспортных и экспедиционных услуг.",
     about_body: "Команда Migrona — это профессионалы с большим опытом в сфере грузоперевозок. Наши эксперты по логистике, водители и диспетчеры работают с постоянными и новыми клиентами, обеспечивая качественный сервис. Мы ценим каждого клиента и предлагаем индивидуальный подход к выполнению любой поставленной задачи.",
     about_img_ph: "Перетащите сюда фото команды или транспорта",
 
-    services_kicker: "02 — Услуги",
+    services_kicker: "Услуги",
     services_title: "Наши услуги",
     services_intro: "Мы оказываем полный спектр транспортно-экспедиционных услуг по доставке грузов автомобильным транспортом и организуем перевозку комплектных, сборных, негабаритных, опасных, генеральных, малогабаритных, химических, хрупких, ценных и длинномерных грузов.",
     svc1_title: "Международные перевозки",
@@ -136,11 +136,11 @@ const I18N = {
     svc6_title: "Консультации",
     svc6_body: "Консультации по вопросам международных грузоперевозок.",
 
-    goal_kicker: "03 — Наша цель",
+    goal_kicker: "Наша цель",
     goal_quote: "Мы работаем, чтобы помочь вам оптимизировать расходы по доставке и обслуживанию вашего груза",
     goal_author: "— Команда Migrona",
 
-    why_kicker: "04 — Почему мы",
+    why_kicker: "Почему мы",
     why_title: "Вы выбираете нас",
     why1_title: "20 лет на рынке",
     why1_body: "Нашему успеху на рынке мы обязаны собственному автопарку, профессиональной команде менеджеров и дисциплинированным водителям, работающим в компании.",
@@ -149,7 +149,7 @@ const I18N = {
     why3_title: "Мы гарантируем",
     why3_body: "Индивидуальный подход к нашим клиентам, быстроту обработки заказов, приемлемые цены, надёжность и сжатые сроки доставки.",
 
-    clients_kicker: "05 — Отзывы",
+    clients_kicker: "Отзывы",
     clients_title: "Отзывы о нас",
     t1_quote: "Мы работаем с командой Migrona более 10 лет. Мы точно знаем, что наш груз в надёжных руках по лучшей на рынке цене. Уверен, наше сотрудничество будет продолжаться.",
     t1_name: "Александр",
