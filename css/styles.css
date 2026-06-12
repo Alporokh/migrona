@@ -257,11 +257,16 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 800; letter-spacing:
 .svc-card:hover .svc-card__title { color: var(--accent); }
 
 /* ---------- Goal (quote band) ---------- */
-.goal { position: relative; overflow: hidden; border-block: 1px solid var(--line); }
-.goal__bg { position: absolute; inset: 0; z-index: 0; }
-.goal__video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.goal { position: relative; overflow: hidden; isolation: isolate; border-block: 1px solid var(--line); }
+.goal__video {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover; display: block; z-index: 0;
+}
 .goal__overlay {
-  position: absolute; inset: 0; z-index: 1;
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  z-index: 1;
   background: linear-gradient(to bottom, rgba(10,11,13,0.62) 0%, rgba(10,11,13,0.78) 100%);
 }
 .goal__wrap { position: relative; z-index: 2; }
